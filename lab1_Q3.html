@@ -1,0 +1,67 @@
+<!DOCTYPE html>  
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Lab Exercise 1 Q1">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Yukii">
+        <title>Lab Exercise 1 Q3</title>
+    </head>
+
+    <body>
+        <center><h1>Your Personal Details</h1></center>
+        <center><form> 
+            <table>
+                <tr>
+                    <th>Your name:</th>
+                    <td><input type="text" name="firstname"></td>
+                </tr>
+                <tr>
+                    <th>Student number:</th>
+                    <td><input type="text" name="stdid"></td>
+                </tr>
+                <tr>
+                    <th>Program:</th>
+                    <td>
+                    <select name = "program">
+                        <option selected = "selected">Bachelor of Computer Science (Software Engineering) with Honours</option>
+                        <option>Diploma in Computer Science</option>
+                        <option>Bachelor of Computer Science (Computer Systems & Networking) with Honours</option>
+                        <option>Bachelor of Computer Science (Graphic & Multimedia Technology) with Honours</option>
+                        <option>Research programmes (Phd and Master)</option>
+                        <option>Coursework programmes (Master)</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male
+                         <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <th>Hobby:</th>
+                    <td>
+                        <input type="checkbox" name="vehicle" value="reading">Reading
+                        <input type="checkbox" name="vehicle" value="outdoor activities">Outdoor Activities
+                        <input type="checkbox" name="vehicle" value="watch tv">Watching TV
+                        <input type="checkbox" name="vehicle" value="sleeping">Sleeping
+                    </td>
+                </tr>
+                <tr>
+                    <th>Comments:</th>
+                    <td>
+                        <textarea name = "comments" rows = "4" cols = "36">Enter comments here.</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <input type="submit" value="Submit">
+                    <input type = "reset" value = "Reset" />
+                    </td>
+                </tr>
+            </table>
+            </form></center>
+    </body>
+</html>
